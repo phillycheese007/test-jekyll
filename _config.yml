@@ -1,4 +1,4 @@
-baseurl : /jekyll
+baseurl : /test-jekyll
 permalink: pretty
 
 sass:
