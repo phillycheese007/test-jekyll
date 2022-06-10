@@ -1,0 +1,18 @@
+---
+layout: wrapper
+---
+
+<strong>Comets</strong>
+
+<nav>
+  <ul>
+    {% for comet in site.comets %}
+    <li>
+      <a href="{{site.baseurl}}/comets/{{comet.slug}}" class="{% if page.url contains comet.slug %}current{% endif %}">
+        {{% comet.title %}}
+
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>
