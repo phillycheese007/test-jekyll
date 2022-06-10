@@ -20,7 +20,7 @@ It **works!**
 ![Minion](https://octodex.github.com/images/minion.png)
 ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
-{% for staff_member in sitemy_collections.staff_members %}
+{% for staff_member in site.my_collections.staff_members %}
   <h1>{{ staff_member.name }} - {{ staff_member.position }}</h1>
   <p>{{ staff_member.content | markdownify }}</p>
 {% endfor %}
