@@ -1,12 +1,5 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-  collections_dir: my_collections
-include:
-  - README.md
-  - index.md
+baseurl : /jekyll
+permalink: pretty
 
 sass:
   sass_dir: scss
