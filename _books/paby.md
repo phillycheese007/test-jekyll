@@ -1,7 +1,6 @@
 ---
-name: Book poobabbbbb
+name: goodbook
 position: bookie
-title: rabbitt
-permalink: /boob/:path/
+title: rabbit
 ---
 beautiful book.dfsfs
