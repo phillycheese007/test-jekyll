@@ -10,3 +10,31 @@ body {
 div {
    border:10px solid blue;
 }
+
+
+
+//#region [Sidebar]
+
+#Sidebar {
+  //height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: 40px;
+  padding-top: 20px;
+  //background-color: #7b777c;
+  padding-top: 39px;
+  padding-right: 5px;
+  div {
+    padding: 7px;
+    display: block;
+    text-align: right;
+    }
+  }
+
+  #Main {
+    //background-color: #7b777c;
+    width: calc(100% - 250px);
+    margin-right:250px;
+  }
+  //#endregion
