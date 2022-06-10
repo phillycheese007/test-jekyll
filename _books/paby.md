@@ -1,6 +1,6 @@
 ---
 name: Book poobabbbbb
 position: bookie
-title: rabiiy title
+title: rabbit
 ---
 beautiful book.dfsfs
