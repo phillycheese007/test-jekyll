@@ -6,6 +6,7 @@ relative_links:
 include:
   - README.md
   - index.md
+  - trash.html
 
 sass:
   sass_dir: scss
