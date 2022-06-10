@@ -9,3 +9,8 @@ include:
 
 sass:
   sass_dir: scss
+
+collections:
+  - staff_members
+
+  collections_dir: my_collections
