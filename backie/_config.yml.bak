@@ -12,6 +12,10 @@ sass:
   sass_dir: scss
 
 collections:
-  comets:
+  staff_members:
     output: true
-    permalink: /comets/:path/
+    permalink: /:collection/:name
+  books:
+    output: true
+    permalink: /:collection/:title
+  
