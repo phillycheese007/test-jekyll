@@ -25,7 +25,7 @@ It **works!**
   <p>{{ staff_member.content | markdownify }}</p>
 {% endfor %}
 
-{% for staff_member in site.my_collections.staff_members %}
-  <h2>{{ staff_member.name }} - {{ staff_member.position }}</h2>
-  <p>{{ staff_member.content | markdownify }}</p>
+{% for staff_member in site.books %}
+  <h2>{{ book.name }} - {{ book.position }}</h2>
+  <p>{{ book.content | markdownify }}</p>
 {% endfor %}

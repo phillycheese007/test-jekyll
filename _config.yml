@@ -14,4 +14,6 @@ sass:
 collections:
   staff_members:
     output: true
+  books:
+    output: true
   
