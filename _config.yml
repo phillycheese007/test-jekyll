@@ -3,16 +3,15 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+  collections_dir: my_collections
 include:
   - README.md
   - index.md
-  - trash.html
 
 sass:
   sass_dir: scss
 
 collections:
   staff_members:
-    output: true 
-  collections_dir: 
-    my_collections
+    output: true
+  
