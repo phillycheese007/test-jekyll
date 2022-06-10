@@ -12,6 +12,6 @@ sass:
 
 collections:
   staff_members:
-    output: true
-  
-  collections_dir: my_collections
+    output: true 
+  collections_dir: 
+    my_collections
