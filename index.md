@@ -25,7 +25,7 @@ It **works!**
   <p>{{ staff_member.content | markdownify }}</p>
 {% endfor %}
 
-{% for staff_member in site.books %}
+{% for book in site.books %}
   <h2>{{ book.name }} - {{ book.position }}</h2>
   <p>{{ book.content | markdownify }}</p>
 {% endfor %}
