@@ -14,8 +14,8 @@ sass:
 collections:
   staff_members:
     output: true
-    permalink: :name/
+    permalink: /:collection/:name
   books:
     output: true
-    permalink: /books/:title/
+    permalink: /:collection/:title
   
